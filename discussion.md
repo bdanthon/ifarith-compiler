@@ -135,3 +135,8 @@ nuts and bolts of code, try to use this experience as a way to think
 about how you would approach doing group code critique. What would you
 do differently next time, what did you learn?
 
+I believe that working on this gave me a better understanding on how compilers work, 
+especially with turning source code into executable machine code. When testing/running 
+the code we realized we had to download something in order to make the asm files 
+which was annoying when we were in the middle of working on the code. 
+There were several steps that were very repetitive in making sure each program worked.
