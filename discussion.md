@@ -31,6 +31,9 @@ racket compiler.rkt -v test-programs/sum1.irv
 
 (Also pass in -m for Mac)
 
+Using ir-virtual? shows us how assembly operates in the language racket. It's simple enough in the sense that it resembles assembly and is easier to create a compiler for and understand in comparison with x86. The cons are that the assembly commands are limited.  
+
+
 [ Question 2 ] 
 
 For this task, you will write three new .ifa programs. Your programs
