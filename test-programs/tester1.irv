@@ -1,0 +1,7 @@
+((mov-lit r0 6)       
+ (mov-lit r1 3)       
+ (mov r2 r0)         
+ (add r2 r0)          
+ (add r2 r1)           
+ (print r2))
+
