@@ -1,4 +1,0 @@
-((mov-lit r0 7)        ; Load literal 7 into register r0
- (mov r1 r0)           ; Copy r0 to r1
- (mul r0 r1)           ; Multiply r0 by r1 (r0 = r0 * r1)
- (print r0))
