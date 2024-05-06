@@ -129,7 +129,7 @@
     [`(,(? uop? uop) ,e) `(,uop ,(ifarith->ifarith-tiny e))]
 
     ;; 0-binding case
-    [`(let* () ,e) '(ifarith->ifarith-tiny e)]
+    [`(let* () ,e) (ifarith->ifarith-tiny e)]
     ;; 1+-binding case
     [`(let* ([,(? symbol? x0) ,e0]) ,e-body)
      `(let ([,x0 ,(ifarith->ifarith-tiny e0)]) ,(ifarith->ifarith-tiny e-body))]
