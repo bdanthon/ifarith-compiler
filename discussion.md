@@ -98,6 +98,8 @@ definition of what an idiom is: think carefully about whether you see
 any pattern in this code that resonates with you from earlier in the
 semester.
 
+Lambda calculus to establish the foundation for ifarith and ifarith-tiny functionality. A lot of ifarith->ifarith-tiny is tail recursive, and inside it uses match cases to contain all the cases necessary. 
+
 [ Question 5 ] 
 
 In this question, you will play the role of bug finder. I would like
