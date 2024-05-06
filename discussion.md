@@ -31,6 +31,7 @@ racket compiler.rkt -v test-programs/sum1.irv
 
 (Also pass in -m for Mac)
 
+The three .irv programs are tester1.irv, teser2.irv, and tester3.irv.
 Using ir-virtual? shows us how assembly operates in the language racket. It's simple enough in the sense that it resembles assembly and is easier to create a compiler for and understand in comparison with x86. The cons are that the assembly commands are limited.  
 
 
