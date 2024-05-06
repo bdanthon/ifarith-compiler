@@ -113,6 +113,8 @@ ask me.
 Your team will receive a small bonus for being the first team to
 report a unique bug (unique determined by me).
 
+Idiv and Mul don't work. As well as the Complier doesn’t work with negative numbers.
+
 [ High Level Reflection ] 
 
 In roughly 100-500 words, write a summary of your findings in working
