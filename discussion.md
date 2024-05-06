@@ -53,6 +53,26 @@ carefully the relevance of each of the intermediate representations.
 For this question, please add your `.ifa` programs either (a) here or
 (b) to the repo and write where they are in this file.
 
+The files are, suma.ifa, suma2.ifa, and suma3.ifa
+suma.ifa - (let* ((x 4)
+       (y 6)
+       (sum (+ x y))
+       (result (* sum 2)))
+  (print result))
+output = 20
+
+suma2.ifa - (let* ([a 8]
+       [b (* a 3)]
+       [c (+ b 20)])
+  (print c))
+output = 44
+
+suma3.ifa - (let* ([a 22]
+       [b (* a 5)]
+       [c (- b 13)])
+  (print c))
+output = 97
+
 [ Question 3 ] 
 
 Describe each of the passes of the compiler in a slight degree of
