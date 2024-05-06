@@ -60,6 +60,9 @@ suma.ifa - (let* ((x 4)
        (result (* sum 2)))
   (print result))
 output = 20
+The first phase shows what was inputted in the file, 
+then it is simplified to be turned into assembly, 
+then finally the asm file.
 
 suma2.ifa - (let* ([a 8]
        [b (* a 3)]
