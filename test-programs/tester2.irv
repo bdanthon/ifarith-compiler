@@ -1,0 +1,7 @@
+((mov-lit r0 4)        ; Load literal 4 into register r0
+ (mov-lit r1 5)        ; Load literal 5 into register r1
+ (mov-lit r2 6)        ; Load literal 6 into register r2
+ (mov r3 r0)           ; Move r0's value to r3
+ (add r3 r1)           ; Add r1 to r3
+ (add r3 r2)           ; Add r2 to r3
+ (print r3)) 
