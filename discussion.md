@@ -88,6 +88,11 @@ there could be more?
 In answering this question, you must use specific examples that you
 got from running the compiler and generating an output.
 
+Using suma3.ifa - First the compiler parses through the input (ifarith), 
+it is then desugared (ifarith tiny) and looks like this (let ((x1254 22)),
+then is ir-virtual which transforms it into this '(((label lab1259) (mov-lit x1254 22)),
+then is x86 and then finally nasm. 
+
 [ Question 4 ] 
 
 This is a larger project, compared to our previous projects. This
