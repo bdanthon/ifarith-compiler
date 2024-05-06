@@ -1,0 +1,5 @@
+(let* ((x 4)
+       (y 6)
+       (sum (+ x y))
+       (result (* sum 2)))
+  (print result))
